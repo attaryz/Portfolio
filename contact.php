@@ -101,15 +101,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
 
             <form class="methodForm" action="contact.php" method="post">
-                <label for="name-box"></label><input type="text" autocomplete="name" name="Name" placeholder="Name" id="name-box" required   />
-                <label for="email-box"></label><input type="email" autocomplete="email" name="Email" placeholder="Email" id="email-box" required  />
+                <label for="name-box"></label><input type="text" autocomplete="name" name="name" placeholder="Name" id="name-box" required   />
+                <label for="email-box"></label><input type="email" autocomplete="email" name="mail" placeholder="Email" id="email-box" required  />
 
 
-                <label for="subject-box"></label><input type="text" maxlength="41" name="Subject" placeholder="Subject" id="subject-box"  />
+                <label for="subject-box"></label><input type="text" maxlength="41" name="subject" placeholder="Subject" id="subject-box"  />
 
 
                 <label for="message-box"></label>
-                <input type="text" name="Message" placeholder="Message" id="message-box" required/>
+                <input type="text" name="message" placeholder="Message" id="message-box" required/>
 
 
 
