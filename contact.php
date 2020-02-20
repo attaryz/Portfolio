@@ -70,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     
     if (empty($nameErr) && empty($emailErr) && empty($messageErr)) {
-        $mailTo = 'attaryz@mail.com';
+        $mailTo = 'markosberg1234@outlook.com';
 
 
         $headers = 'From: ' . $email . "\r\n" .
