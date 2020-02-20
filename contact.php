@@ -69,7 +69,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 
     
-    if (!empty($nameErr) && !empty($emailErr) && !empty($messageErr)) {
+    if (empty($nameErr) && empty($emailErr) && empty($messageErr)) {
         $mailTo = 'attaryz@mail.com';
 
 
