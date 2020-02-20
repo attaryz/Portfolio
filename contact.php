@@ -67,7 +67,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $messageErr = "Please enter a valid message.";
         }
     }
-    if (empty($nameErr) && empty($emailErr) && empty($messageErr)) {
+
+    
+    if (!empty($nameErr) && !empty($emailErr) && !empty($messageErr)) {
         $mailTo = 'attaryz@mail.com';
 
 
